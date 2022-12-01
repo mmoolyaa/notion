@@ -1,6 +1,3 @@
 # notion
-notion widgets
 
-a custom version of notion widget from ShoroukAziz
-
-thanks a lot
+my notion widgets. feel free to use all of them :)

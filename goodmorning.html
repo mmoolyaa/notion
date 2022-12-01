@@ -16,16 +16,16 @@
 
         .widget {
             padding: 5px 5px ;
-            color: #D4D4D4;
+            color: #DDDDDD;
             display: flex;
             justify-content:center;
             align-items:center;
             flex-direction: column;
             max-width: 100%;
             margin: auto;
-            border: 3px solid #D4D4D4;
+            border: 3px solid #DDDDDD;
             border-radius: 5px;
-            box-shadow: 2px 2px 1px 0px #D4D4D4;
+            box-shadow: 2px 2px 1px 0px #DDDDDD;
 
         }
 
@@ -113,8 +113,6 @@ function dispalyGreetings(today){
     function dispalyWidget() {
         var today = new Date();
         dispalyGreetings(today);
-        dispalyDate(today);
-        dispalyClock(today);
         setTimeout(dispalyWidget, 500);
     }
 
